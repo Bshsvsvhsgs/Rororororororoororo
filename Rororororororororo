@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("Ocean hub [Remake]", "Ocean")
+
+
+local Tab = Window:NewTab("Troll")
+
+local TrollSection = Tab:NewSection("Troll")
+
+
+
+TrollSection:NewButton("ocean hub [v1]", "первая версия", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bshsvsvhsgs/Rarrarar/main/Ffffffff"))()
+end)
+
+TrollSection:NewButton("скоро будут ещё скрипты", "скоро", function()
+    print("скоро")
+end)
+
+local Tab = Window:NewTab("Games")
+
+local GamesSection = Tab:NewSection("Games")
+
+
+
+local GamesSection = Games:NewSection("Games")
+
+GamesSection:NewButton("Piggy", "скрипт на пигии", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Piggy'),true))()
+end)
+
+GamesSection:NewButton("Brookhaven", "скрипт на brookhaven", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+GamesSection:NewButton("симулятор падения в канаву", "мощный скрипт на спвк", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vaxcurs/1/main/SimKanavaCode2.3.txt"))()
+end)
+
+GamesSection:NewButton("Brookhaven", "скрипт на brookhaven", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
